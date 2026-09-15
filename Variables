@@ -1,0 +1,8 @@
+Variable = A container for storing data values (string, integer, float, boolean). A variable behaves as if it were the data value it contains, allowing you to reference and manipulate that data through the variable name.
+String is a sequence of characters enclosed in quotes (double or single).ne
+f-strings are a way to embed expressions inside string literals, using curly braces {}, print(f"Hello {name}").
+Integer is a whole number, positive or negative, without decimals, of unlimited length.
+Float is a number, positive or negative, containing one or more decimals.
+Boolean is a data type that can have one of two values: True or False.
+if-else statements are used to execute different blocks of code based on a condition.
+elif statements are used to check multiple conditions.
