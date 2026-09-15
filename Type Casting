@@ -1,0 +1,3 @@
+Type Casting = The process of converting one data type to another.
+Common type casting functions include int(), float(), str(), and bool().
+Example age = #, age = float(age) turns an int to float
