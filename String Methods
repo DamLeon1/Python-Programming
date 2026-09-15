@@ -1,0 +1,21 @@
+.find = first occurence of what in the ""
+.rfind() = last occurrence of whats in the ""
+.capitalize() = capitalize first letter
+.upper() = upper case full string
+.lower() = lower case full string
+.isdigit() = returns true if string only contains digits
+.isalpha() = returns true if string only contains characters
+.count("x") = returns number of x characters inside a string
+.replace("x", "y") = replace x with y
+
+Example:
+user_name = input("Enter a user name: ")
+
+if len(user_name) > 12:
+    print("User name cant be more than 12 characters")
+elif not user_name.find(" ") == -1:
+    print("User name cant contain spaces")
+elif not user_name.isalpha():
+    print("User cant contain digits")
+else:
+    print(f"Welcome {user_name}")
