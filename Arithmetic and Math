@@ -1,0 +1,12 @@
++= = increment operator, + = addition operator
+-= = decrement operator, - = subtraction operator
+*= = multiply operator, * = multiplication operator
+/= = divide operator, / = division operator
+**= = exponent operator, ** = exponent operator
+%= = modulus operator, gives the remainder of a division
+round() = rounds a number to the nearest whole number, can also round to a specific decimal place by adding a second argument. Example: round(3.14159) = 3, round(3.14159, 2) = 3.14
+abs() = returns the absolute value of a number, removes the negative sign
+pow() = returns the value of a number raised to the power of another number, pow(2, 3) = 2^3 = 8
+max() = returns the largest value in a list or set of numbers, max(1, 2, 3) = 3
+min() = returns the smallest value in a list or set of numbers, min(1, 2, 3) = 1
+import math = imports the math module, which contains various mathematical functions and constants. Example: math.sqrt(16) = 4, math.pi = 3.14159, math.ceil(3.14) = 4, math.floor(3.14) = 3
