@@ -1,0 +1,16 @@
+input() = A function that prompts the user to enter data, returns the entered data as a string
+Example of input() function: name = input("What is your name?: "), age = input("How old are you?: ")
+Use f-string when wanting to use variables
+User input is always returned as a string, so if you want to use it as a number, you need to convert it using int() or float().
+Example: age = input("How old are you?: "), age = int(age) converts the string to an integer or age = int(input("How old are you?: "))
+
+Example:
+item = input("What would like to buy?: ")
+price = float(input("What is the price?: "))
+quantity = int(input("How many would you like?: "))
+
+
+total = price * quantity;
+
+
+print(f"Total = {total}")
