@@ -1,0 +1,17 @@
+If statements = A conditional statement that executes a block of code if a specified condition is true. If the condition is false, the code block will not be executed.
+if-else statements are used to execute different blocks of code based on a condition.
+elif statements are used to check multiple conditions. If the first condition is false, it checks the next condition, and so on.
+Order of if-elif-else statements is important. The first condition that evaluates to true will be executed, and the rest will be ignored.
+double equals sign (==) is used to compare two values for equality. A single equals sign (=) is used to assign a value to a variable.
+
+Example:
+age = int(input("Enter your age: "))
+
+if age >= 100:
+    print("You are too old")
+elif age >= 18:
+    print("You are now signed up")
+elif age < 0:
+    print("You are not born yet")
+else:
+    print("You must be 18+ to sign up")
